@@ -20,19 +20,19 @@ public class EmpServiceImpl implements EmpService {
 	@Override
 	public int deleteEmp(int eid) {
 		// TODO Auto-generated method stub
-		return 0;
+		return empRepo.deleteEmp(eid) ;
 	}
 
 	@Override
 	public int updateEmp(Emp e) {
 		// TODO Auto-generated method stub
-		return 0;
+		return empRepo.updateEmp(e);
 	}
 
 	@Override
 	public List<Emp> viewEmp() {
 		// TODO Auto-generated method stub
-		return null;
+		return empRepo.viewEmp();
 	}
 
 }

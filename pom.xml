@@ -32,5 +32,10 @@
 			<artifactId>javax.annotation-api</artifactId>
 			<version>1.3.2</version>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>org.springJDBC</groupId>
+			<artifactId>SpringJDBCProject</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
 </project>
