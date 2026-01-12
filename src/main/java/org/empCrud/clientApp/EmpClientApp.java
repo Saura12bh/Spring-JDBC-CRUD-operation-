@@ -51,6 +51,8 @@ public class EmpClientApp {
             	 break;
             	 
              case 2:
+            	 System.out.println("Enter id to delete Emp");
+            	 
             	 break;
              }
 		} while (ch != 5);
